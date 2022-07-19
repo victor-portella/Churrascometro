@@ -11,6 +11,12 @@
     margin: 100px auto;
     padding: 2em;
     border-radius: 10px;
+    filter: drop-shadow(.2em .2em 1em rgb(206, 206, 206));
+}
+
+p {
+    color: white;
+    margin-top: .7em;
 }
 
 h1 {
@@ -37,4 +43,5 @@ button {
     color: white;
     margin: .4em 0;
     font-weight: bold;
+    cursor: pointer;
 }
